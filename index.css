@@ -2,8 +2,12 @@
     margin-top: 5rem;
 }
 
-.imgrag{
+.imgrag {
     width: 400px;
+}
+
+.imgfnaf {
+    width: 50%;
 }
 
 @media (max-width: 991px) {
@@ -40,7 +44,11 @@
         margin-top: 9rem;
     }
 
-    .imgrag{
+    .imgrag {
         width: 200px;
+    }
+
+    .imgfnaf {
+        width: 75%;
     }
 }
