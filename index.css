@@ -1,0 +1,46 @@
+.section1 {
+    margin-top: 5rem;
+}
+
+.imgrag{
+    width: 400px;
+}
+
+@media (max-width: 991px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .navbar {
+        padding: 1rem;
+    }
+
+    .d-grid {
+        grid-template-columns: 1fr;
+    }
+
+    img.img-fluid {
+        width: 100%;
+        max-width: 360px;
+    }
+
+    #gifArea,
+    #gifbalora {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .gridMob {
+        display: grid !important;
+    }
+
+    .section1 {
+        margin-top: 9rem;
+    }
+
+    .imgrag{
+        width: 200px;
+    }
+}
